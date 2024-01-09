@@ -54,7 +54,7 @@ const datas = [
             "getType()" ,
         ],
         "type" : "PHP",
-        "bonnes" : [0,1] 
+        "bonnes" : [0,2] 
         ,
     },
     {
