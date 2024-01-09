@@ -1,57 +1,68 @@
-//types "QCMn" "QCM1"
-//Idees essayer de mettre des checkbox à la palce des options
+// import {nomDumodule} from "cheminVersLeModule"
+
 const quizz= document.getElementById("quizz") ;
 const scoreElement= document.getElementById("score") ;
 const nbDeQuestionsElement= document.getElementById("nbDeQuestions") ;
 const datas = [
     {
-    "question" : "Le chat a 4 pattes:" ,
+    "question" : "Une méthode de classe est une fonction" ,
     "reponses" : [
         "Vrai" ,
         "Faux" ,
     ],
-    "type" : "QCM1",
+    "type" : "PHP",
     "bonnes" : [0] 
     ,
     },
     {
-        "question" : "Les couleurs du drapeau français sont " ,
+        "question" : "Un tableau associatif se présente sous la forme [clé=>valeur]" ,
         "reponses" : [
-            "bleu",
-            "blanc",
-            "rouge",
+            "Vrai",
+            "Faux",
         ],
-        "type" : "QCMn",
-        "bonnes" : [0,1,2] 
+        "type" : "PHP",
+        "bonnes" : [0] 
         ,
-        },
+    },
+    {
+        "question" : "Altorouter permet de :" ,
+        "reponses" : [
+            "créer des routes" ,
+            "créer des Models" ,
+            "créer des Views" ,
+        ],
+        "type" : "PHP",
+        "bonnes" : [0] 
+        ,
+    },
+    {
+        "question" : "Generate va nous servir à " ,
+        "reponses" : [
+            "avoir des noms d'URL plus clairs" ,
+            "dynamiser le menu" ,
+            "créer des routes" ,
+        ],
+        "type" : "PHP",
+        "bonnes" : [0,1] 
+        ,
+    },
+    {
+        "question" : "Pour voir un tableau, je peux utiliser :" ,
+        "reponses" : [
+            "var_dump()" ,
+            "echo()" ,
+            "getType()" ,
+        ],
+        "type" : "PHP",
+        "bonnes" : [0,1] 
+        ,
+    },
 ] ;
 
 
 
 // const datas = [
-//     {
-//     "question" : "Altorouter permet de :" ,
-//     "reponses" : [
-//         "créer des routes" ,
-//         "créer des Models" ,
-//         "créer des Views" ,
-//     ],
-//     "type" : "QCM1",
-//     "bonnes" : [1] 
-//     ,
-//     },
-//     {
-//         "question" : "Generate va nous servir à " ,
-//         "reponses" : [
-//             "avoir des noms d'URL plus clairs" ,
-//             "dynamiser le menu" ,
-//             "créer des routes" ,
-//         ],
-//         "type" : "QCMn",
-//         "bonnes" : [1,2] 
-//         ,
-//         },
+//     
 // ] ;
 
 let userAnswersTotal=[] ; //tabl d'objets
