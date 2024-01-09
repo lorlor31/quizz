@@ -57,6 +57,28 @@ const datas = [
         "bonnes" : [0,1] 
         ,
     },
+    {
+        "question" : "Soit le tableau $a =['coca','beer','juice'] , à quoi est égal $a['coca'] ?" ,
+        "reponses" : [
+            "0" ,
+            "1" ,
+            "ça renvoie une erreur." ,
+        ],
+        "type" : "PHP",
+        "bonnes" : [2] 
+        ,
+    },
+    {
+        "question" : "Soit le tableau $a =['coca'=>1,'beer'=>3,'juice'=>4] , à quoi est égal $a['coca'] ?" ,
+        "reponses" : [
+            "0" ,
+            "1" ,
+            "2" ,
+        ],
+        "type" : "PHP",
+        "bonnes" : [1] 
+        ,
+    },
 ] ;
 
 
