@@ -3,83 +3,140 @@
 const quizz= document.getElementById("quizz") ;
 const scoreElement= document.getElementById("score") ;
 const nbDeQuestionsElement= document.getElementById("nbDeQuestions") ;
+
 const datas = [
     {
-    "question" : "Une méthode de classe est une fonction" ,
-    "reponses" : [
-        "Vrai" ,
-        "Faux" ,
-    ],
-    "type" : "PHP",
-    "bonnes" : [0] 
-    ,
-    },
-    {
-        "question" : "Un tableau associatif se présente sous la forme [clé=>valeur]" ,
+        "question" : "Les méthodes suivantes permettent de faire des requêtes SQL en PHP" ,
         "reponses" : [
-            "Vrai",
-            "Faux",
-        ],
-        "type" : "PHP",
-        "bonnes" : [0] 
-        ,
-    },
-    {
-        "question" : "Altorouter permet de :" ,
-        "reponses" : [
-            "créer des routes" ,
-            "créer des Models" ,
-            "créer des Views" ,
-        ],
-        "type" : "PHP",
-        "bonnes" : [0] 
-        ,
-    },
-    {
-        "question" : "Generate va nous servir à " ,
-        "reponses" : [
-            "avoir des noms d'URL plus clairs" ,
-            "dynamiser le menu" ,
-            "créer des routes" ,
+            "exec()" ,
+            "query()" ,
+            "header()",
         ],
         "type" : "PHP",
         "bonnes" : [0,1] 
-        ,
-    },
+    }    ,
     {
-        "question" : "Pour voir un tableau, je peux utiliser :" ,
+        "question" : "Les namespaces sont des sortes de" ,
         "reponses" : [
-            "var_dump()" ,
-            "echo()" ,
-            "getType()" ,
-        ],
-        "type" : "PHP",
-        "bonnes" : [0,2] 
-        ,
-    },
-    {
-        "question" : "Soit le tableau $a =['coca','beer','juice'] , à quoi est égal $a['coca'] ?" ,
-        "reponses" : [
-            "0" ,
-            "1" ,
-            "ça renvoie une erreur." ,
+            "fichiers" ,
+            "patrons d'objets" ,
+            "dossiers virtuels",
         ],
         "type" : "PHP",
         "bonnes" : [2] 
-        ,
-    },
+    } ,
     {
-        "question" : "Soit le tableau $a =['coca'=>1,'beer'=>3,'juice'=>4] , à quoi est égal $a['coca'] ?" ,
+        "question" : "Le CRUD c'est" ,
         "reponses" : [
-            "0" ,
-            "1" ,
-            "2" ,
+            "Create Read Update Datas" ,
+            "Create Read Update Delete" ,
+            "Create Read Update Download",
         ],
         "type" : "PHP",
         "bonnes" : [1] 
-        ,
-    },
-] ;
+    } ,
+    {
+        "question" : "Quelle commande faut-il taper dans le terminal quand on récupère un repo ayant des dépendances" ,
+        "reponses" : [
+            "composer update" ,
+            "composer install" ,
+            "composer reload",
+        ],
+        "type" : "PHP",
+        "bonnes" : [1] 
+    } ,
+    {
+        "question" : "Le back-office c'est" ,
+        "reponses" : [
+            "Une partie inaccessible au visiteur lambda" ,
+            "Une partie du site qui sert à l'administrer" ,
+            "Notamment pour gérer les fonctionnalités du site",
+        ],
+        "type" : "PHP",
+        "bonnes" : [0,1,2] 
+    } ,
+    
+    
+]
+
+
+// const datas = [
+//     {
+//     "question" : "Une méthode de classe est une fonction" ,
+//     "reponses" : [
+//         "Vrai" ,
+//         "Faux" ,
+//     ],
+//     "type" : "PHP",
+//     "bonnes" : [0] 
+//     ,
+//     },
+//     {
+//         "question" : "Un tableau associatif se présente sous la forme [clé=>valeur]" ,
+//         "reponses" : [
+//             "Vrai",
+//             "Faux",
+//         ],
+//         "type" : "PHP",
+//         "bonnes" : [0] 
+//         ,
+//     },
+//     {
+//         "question" : "Altorouter permet de :" ,
+//         "reponses" : [
+//             "créer des routes" ,
+//             "créer des Models" ,
+//             "créer des Views" ,
+//         ],
+//         "type" : "PHP",
+//         "bonnes" : [0] 
+//         ,
+//     },
+//     {
+//         "question" : "Generate va nous servir à " ,
+//         "reponses" : [
+//             "avoir des noms d'URL plus clairs" ,
+//             "dynamiser le menu" ,
+//             "créer des routes" ,
+//         ],
+//         "type" : "PHP",
+//         "bonnes" : [0,1] 
+//         ,
+//     },
+//     {
+//         "question" : "Pour voir un tableau, je peux utiliser :" ,
+//         "reponses" : [
+//             "var_dump()" ,
+//             "echo()" ,
+//             "getType()" ,
+//         ],
+//         "type" : "PHP",
+//         "bonnes" : [0,2] 
+//         ,
+//     },
+//     {
+//         "question" : "Soit le tableau $a =['coca','beer','juice'] , à quoi est égal $a['coca'] ?" ,
+//         "reponses" : [
+//             "0" ,
+//             "1" ,
+//             "ça renvoie une erreur." ,
+//         ],
+//         "type" : "PHP",
+//         "bonnes" : [2] 
+//         ,
+//     },
+//     {
+//         "question" : "Soit le tableau $a =['coca'=>1,'beer'=>3,'juice'=>4] , à quoi est égal $a['coca'] ?" ,
+//         "reponses" : [
+//             "0" ,
+//             "1" ,
+//             "2" ,
+//         ],
+//         "type" : "PHP",
+//         "bonnes" : [1] 
+//         ,
+//     },
+// ] ;
 
 
 
